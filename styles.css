@@ -1,0 +1,79 @@
+.coiny-regular {
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.concert-one-regular {
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#main-div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#inner-div {
+    position:absolute;
+    margin: 0%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.headertxt {
+    font-family: "Coiny", system-ui;
+    font-size: 6rem;
+    /* padding: 0; */
+    -webkit-text-stroke: 3px #971F1F;
+    color:#FE9788;
+}
+
+#title-txt {
+    margin:0px;
+    /* margin-bottom: -.2em; */
+    
+}
+
+#welcome-body {
+    background-color: #FAD57A;
+}
+
+.maintxt {
+    color: #971F1F;
+    font-family: "Concert One", system-ui;
+    font-size: 1.5rem;
+}
+
+#desc-txt {
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+}
+
+#startedbtn {
+    color: #5A3B66;
+    background-color: #BDB0CE;
+    border-radius: 4rem;
+    font-family: "Concert One", system-ui;
+    font-size: 2.4rem;
+    width: 55%;
+    letter-spacing: .2rem;
+    border-color: rgba(1, 1, 1, .2);
+}
+
+#landing-main-div {
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#score-section {
+    background-color: lightgray;
+    border-radius: 3rem;
+}
+
