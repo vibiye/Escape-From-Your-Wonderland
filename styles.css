@@ -75,6 +75,7 @@
 
 #score-section {
     font-family: "Concert One", system-ui;
+    color: #33336B;
     border-radius: 4rem;
     background-color: #BDB0CE;
     border-color: #33336B;
@@ -236,3 +237,54 @@
     align-items: center;
     height: 200px;
 }
+
+img {
+    border-radius: 50%;
+    border: 2px solid #5A3B66;   
+    width: 50%;
+}
+
+.cards-div {
+    margin: 0 -5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.card {
+    height: 250px;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.614);
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .friend-name {
+    font-family: "Coiny", system-ui;
+    font-size: 30px;
+    color: #33336B;
+    margin: 10px;
+
+  }
