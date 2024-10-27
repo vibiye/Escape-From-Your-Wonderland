@@ -19,7 +19,7 @@
 
 #inner-div {
     position:absolute;
-    margin: 0%;
+    margin: 10%;
     top:50%;
     transform: translateY(-50%);
 }
@@ -301,4 +301,13 @@ img {
     font-size: 24px;
     color:#02021b;
     margin: -15px 0 5px 0;
+  }
+
+  table {
+    text-align: left;
+    font-family: "Coiny";
+  }
+
+  td {
+    padding: 10px;
   }
