@@ -160,17 +160,79 @@
     align-items: baseline;
 }
 
-/* .place-div {
-    display:flex;
-    align-items: baseline;
-} */
-
 @font-face {
     font-family: "Digital Numbers";
-    src: url("/DigitalNumbers-Regular.ttf");
+    src: url("./DigitalNumbers-Regular.ttf");
 
 }
 
 #startedbtn:hover {
     transform: scale(1.2);
+}
+
+.display-timer {
+    font-family: 'Digital Numbers';
+    font-size: 120px;
+    text-align: center;
+    padding: 15px 55px;
+    border: 3px solid #33336B;
+    border-radius: 20px;
+    margin: 20px 20px;
+    background-color: #D9D9D9;
+}
+
+#stopTimer {
+    background-color: #D9D9D9;
+    font-size: 60px;
+    font-family: "Concert One", system-ui;
+    text-align: center;
+    padding: 10px 24px;
+    border: 2px solid #33336B;
+    border-radius: 40px;
+    letter-spacing: 10px;
+    width: 560px;
+    color: #33336B;
+}
+
+#stopTimer:hover {
+    background-color: #33336B;
+    border-color: #D9D9D9;
+    color: #D9D9D9;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-box {
+    background-color: #BDB0CE;
+    width: 1220px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #33336B;
+    border-radius: 20px;
+}
+
+.current-task {
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
