@@ -122,7 +122,7 @@
 }
 
 #secondplace {
-    height: 20vh;
+    height: 25vh;
     background-color: #9FB4D3;
     width: 16vw;
     position:relative;
@@ -134,7 +134,7 @@
 }
 
 #firstplace {
-    height: 26vh;
+    height: 31vh;
     background-color: #FAD57A;
     width: 16vw;
     border-top: black solid 2px;
@@ -145,7 +145,7 @@
 }
 
 #thirdplace {
-    height: 15vh;
+    height: 20vh;
     background-color: #FE9788;
     width: 16vw;
     border-top: black solid 2px;
@@ -158,7 +158,7 @@
 #chart-div {
     display:flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 @font-face {
@@ -242,6 +242,7 @@ img {
     border-radius: 50%;
     border: 2px solid #5A3B66;   
     width: 50%;
+    margin: 5px;
 }
 
 .cards-div {
@@ -286,5 +287,18 @@ img {
     font-size: 30px;
     color: #33336B;
     margin: 10px;
+  }
 
+  .podium-name{
+    font-family: "Coiny", system-ui;
+    font-size: 30px;
+    color: #02021b;
+    margin: -10px 0 5px 0;
+  }
+
+  #podium-score {
+    font-family: "Concert One", system-ui;
+    font-size: 24px;
+    color:#02021b;
+    margin: -15px 0 5px 0;
   }
