@@ -10,10 +10,24 @@
         <title>Friend Page</title>
         <script src="friend_page.js"></script>
     </head>
-    <body>
-        <p class="headertxt">{{Friend Name}}</p>
-        <div id="timer"></div>
-        <button id="stopTimer">Stop Timer</button>
+    <body style="background-color: #9FB4D3; margin: 20px 20px">
+        <p id="goback" ><a href="landing.html" style="text-decoration: none; color:black">← back to friends overview</a></p>
+        <div class="profile">
+            <img src="./pfp2.png" style="border-radius: 50%; width: 200px">
+            <p class="headertxt" style="margin-left: 100px; margin: 20px 50px">{{Friend Name}}</p>
+        </div>
+        <p class="current-task">
+            {{Friend}}'s Current Task: {{Task}}
+            <br>
+            Your Current Task: {{Task}}
+            <br>
+        </p>
+        <div class="timer-box">
+            <div class="display-timer"></div>
+            <div class="center">
+                <button id="stopTimer">STOP TIMER</button>
+            </div>
+        </div>
         <div id="timeLeft" style="display: none;"></div>
     </body>
 </html>

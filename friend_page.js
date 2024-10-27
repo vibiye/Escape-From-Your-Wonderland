@@ -1,14 +1,17 @@
 window.onload = function() {
     var hr = 0;
-    var min = 0;
-    var sec = 5;
+    var min = Math.floor(Math.random() * 4);
+    var sec = Math.floor(Math.random() * 61);
 
     function updateDisplay() {
-        document.getElementById("timer").innerHTML = 
-        (hr < 10 ? "0" + hr : hr) + ":" + 
-        (min < 10 ? "0" + min : min) + ":" + 
-        (sec < 10 ? "0" + sec : sec);
-    }
+        const newTime = 
+            (hr < 10 ? "0" + hr : hr) + ':' + 
+            (min < 10 ? "0" + min : min) + ':' + 
+            (sec < 10 ? "0" + sec : sec);
+
+        const myDiv = document.querySelector(".display-timer");
+        myDiv.textContent = newTime;
+    }    
 
     var timerInterval = setInterval(function() {
         sec--;
@@ -23,7 +26,7 @@ window.onload = function() {
 
                 if (hr < 0) {
                     clearInterval(timerInterval);
-                    document.getElementById("timer").innerHTML = "00:00:00";
+                    document.querySelector(".display-timer").textContent ="00:00:00";
                     alert("timer has run out!");
                     return;
                 }
@@ -39,7 +42,9 @@ window.onload = function() {
         (hr < 10 ? "0" + hr : hr) + ":" + 
         (min < 10 ? "0" + min : min) + ":" + 
         (sec < 10 ? "0" + sec : sec);
-        alert("You finished the task " +timeLeft  + "before your friend");
+        alert("You finished the task " + timeLeft  + "before your friend");
         return;
     };
+
+    updateDisplay();
 };
