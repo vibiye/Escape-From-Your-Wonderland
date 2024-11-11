@@ -19,7 +19,7 @@
 
 #inner-div {
     position:absolute;
-    margin: 10%;
+    /*margin: 10%; */
     top:50%;
     transform: translateY(-50%);
 }
